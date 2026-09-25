@@ -1,9 +1,9 @@
 name:  3rd-pratice
 on:
-  workflow_dispatch:
+  workflow_dispatch
 jobs:
   3rd pratice:
-    runs-on:  ubutnu-latest
+    runs-on:  ubuntu-latest
     steps:
       -  name: '1st checking the work-dispacth command'
          run:  ls -la
