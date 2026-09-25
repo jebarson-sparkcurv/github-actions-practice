@@ -1,0 +1,11 @@
+name:  workflow-dispatch
+on:  
+  workflow_dispatch
+jobs:
+  testing-the-workflow:
+    name:  "testing the dispatch"
+    runs-on:  ubuntu-latest
+    steps: 
+      -  name:  "printing the messaages"
+         run:    echo "hi this the workflow dispatch" >> files.txt  
+    
