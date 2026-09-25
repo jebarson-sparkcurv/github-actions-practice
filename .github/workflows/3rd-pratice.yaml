@@ -2,7 +2,7 @@ name:  3rd-pratice
 on:
   workflow_dispatch:
 jobs:
-  '3rd-pratice'
+  3rd-pratice:
     runs-on:  ubutnu-latest
     steps:
       -  name: '1st checking the work-dispacth command'
