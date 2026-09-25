@@ -1,0 +1,14 @@
+name: event
+on:  
+  push:
+  pull_request: 
+jobs:
+  Event-debugging:
+    runs-on: ubuntu-latest
+    steps:
+      - name: show event
+        run: echo " ${{github.event_name}}"
+      - name: show-ref
+        run: echo "ref= $GITHUB_REF"
+      - name: Show actor
+        run: echo "Actor = $GITHUB_ACTOR"
