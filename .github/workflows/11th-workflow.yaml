@@ -26,4 +26,4 @@ jobs:
         with:  
           name:  artifact.txt    
       - name:  " viewing the downloaded file "
-        run:  cat artifact.txt
+        run:  cat myfile.txt
