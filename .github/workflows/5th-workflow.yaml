@@ -1,6 +1,6 @@
 name: 
 on:
-  push
+  workflow_dispatch: 
 jobs:
   first-step:
     runs-on:  ubuntu-latest
