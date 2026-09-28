@@ -1,0 +1,12 @@
+name: Environment-variable
+on: 
+  push:
+env:
+jobs:
+  NAME=Jebarson:
+  first-Environment:  
+    runs-on:  ubuntu-latest
+    steps:
+      - name: "Checking the env"
+        run:  echo "this is $NAME"
+    
