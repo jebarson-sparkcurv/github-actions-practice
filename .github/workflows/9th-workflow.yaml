@@ -1,6 +1,6 @@
 name: Environment-variable
 on: 
-  push:
+  workflow_dispatch: 
 env:
   NAME:  Jebarson
 jobs:
