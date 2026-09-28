@@ -1,0 +1,8 @@
+name: variable-environment
+on:  workflow_dispatch
+jobs:
+  variable-env:
+    runs-on: ubuntu-22.04
+    steps:
+      -  name: 1
+         run: echo"checking the environmnet variable in github ${{ USER_NAME }}
