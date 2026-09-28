@@ -2,8 +2,8 @@ name: Environment-variable
 on: 
   push:
 env:
+  NAME:  Jebarson
 jobs:
-  NAME=Jebarson:
   first-Environment:  
     runs-on:  ubuntu-latest
     steps:
