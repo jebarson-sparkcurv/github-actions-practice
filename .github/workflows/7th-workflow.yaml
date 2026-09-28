@@ -1,0 +1,11 @@
+name:  7th-workflow
+on:
+  push:
+jobs:
+  seventh-worlflow:
+    runs-on: ubuntu-22.04
+    steps:
+      -  name:  "checking out the git repo"
+         uses:  actions/checkout@v4
+      -  name: " checking the repo "
+         uses:  ls -la     
