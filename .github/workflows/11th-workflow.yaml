@@ -10,3 +10,9 @@ jobs:
 
       - name: " viewing the file"
         run:  cat myfile.txt
+        
+      - name: " uploading the file "
+        uses:  actions/upload-artifact@v7.0.1
+        with:
+          name: artifact.txt
+          path:  myfile.txt
