@@ -1,0 +1,20 @@
+name:  6th-pratice
+on: 
+  push:
+jobs:
+  first-pratice:
+    runs-on: ubuntu-22.04
+    steps:
+      - name:  1
+        run:  |
+            pwd
+            echo " this is " whoami
+            ls -l
+  second-pratice:  
+    runs-on: ubuntu-22.04
+    steps:
+      - name:  2
+        run:  |
+            pwd
+            echo " this is " whoami
+            ls -l
