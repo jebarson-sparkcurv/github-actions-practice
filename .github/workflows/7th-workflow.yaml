@@ -8,4 +8,4 @@ jobs:
       -  name:  "checking out the git repo"
          uses:  actions/checkout@v4
       -  name: " checking the repo "
-         uses:  ls -la     
+         run: :  ls -la     
