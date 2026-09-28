@@ -1,0 +1,12 @@
+name: Artifact
+on: 
+  workflow_dispatch:
+jobs:
+  uploading-the-artifact:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "creating a file"
+        run: echo " hi this is my artifact file " >> myfile.txt
+
+      - name: " viewing the file"
+        run:  cat myfile.txt
