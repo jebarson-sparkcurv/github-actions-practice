@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       -  name: 1
-         run: echo"checking the environmnet variable in github ${{ USER_NAME }}
+         run: echo"checking the environmnet variable in github '${{ vars.USER_NAME }}'
