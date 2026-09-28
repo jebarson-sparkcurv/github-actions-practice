@@ -1,0 +1,23 @@
+name: 
+on:
+  push
+jobs:
+  first-step:
+    runs-on:  ubuntu-latest
+    steps:
+      -  name:  step-1
+         run:  echo "this is the sample file" >> file.txt
+  second-step:
+    runs-on: ubuntu-22.04
+    needs: first-step
+    steps:
+      -  name:  step-2
+         run:  cat file.txt
+      
+    
+      
+    
+    
+  
+  
+      
