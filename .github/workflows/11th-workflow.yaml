@@ -24,3 +24,5 @@ jobs:
         uses:  actions/download-artifact@v3.1.0
         with:  
           name:  artifact.txt    
+      - name:  " viewing the downloaded file "
+        run:  cat artifact.txt
