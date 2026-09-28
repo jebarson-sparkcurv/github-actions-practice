@@ -1,7 +1,6 @@
 name: event
 on:  
-  push:
-  pull_request: 
+
 jobs:
   Event-debugging:
     runs-on: ubuntu-latest
