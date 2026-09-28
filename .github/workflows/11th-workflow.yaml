@@ -18,6 +18,7 @@ jobs:
           path:  myfile.txt
     
   downloading-the-artifact:
+    needs: uploading-the-artifact
     runs-on: ubuntu-latest
     steps:
       - name:  " Downloading the artifact "
